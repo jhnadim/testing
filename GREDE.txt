@@ -1,0 +1,8 @@
++ 3
+
+
+: main and 10 other classes with 5 methods in each classes
+: have doc string for Every class, member variable and method
+: total 152 test cases, (5 methods * 3 test caese)* 10
+: more than 10 test cases to catch exceptions from methods.
+: suite to run all tests. passed all tests.

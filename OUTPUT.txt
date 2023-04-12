@@ -1,0 +1,30 @@
+# test_suite_all.py
+
+[Running] python -u "c:\Users\jobay\OneDrive\Desktop\unit test\test_suite_all.py"
+..........................................................................................<tree.Tree object at 0x0000011B7626F8B0>
+<tree.Tree object at 0x0000011B7626FD90>
+..............................................................
+----------------------------------------------------------------------
+Ran 152 tests in 0.016s
+
+OK
+
+.......................................................................
+
+$ python -m pytest test_suite_all.py
+========================================== test session starts ===========================================
+platform win32 -- Python 3.10.2, pytest-7.2.2, pluggy-1.0.0
+rootdir: C:\Users\jobay\OneDrive\Desktop\unit test
+collected 167 items
+
+test_suite_all.py ................................................................................. [ 48%]
+......................................................................................              [100%]
+
+============================================ warnings summary ============================================
+..\..\..\..\..\Python310\lib\unittest\suite.py:83
+  C:\Python310\lib\unittest\suite.py:83: PytestCollectionWarning: cannot collect 'test_suite' because it is not a function.
+    def __call__(self, *args, **kwds):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+===================================== 152 passed, 1 warning in 0.48s =====================================
